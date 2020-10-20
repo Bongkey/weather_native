@@ -1,3 +1,0 @@
-# weather-native
-
-React-Native
