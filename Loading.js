@@ -1,11 +1,8 @@
-import React from "react";
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 function Loading() {
-    return <View></View>
+  return <View />;
 }
 
-
-const styles = StyleSheet.create({
-
-})
+const styles = StyleSheet.create({});

@@ -5,8 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-        <View style={styles.yellowView}></View>
-        <View style={styles.blueView}></View>
+      <View style={styles.yellowView} />
+      <View style={styles.blueView} />
       <StatusBar style="auto" />
     </View>
   );
@@ -17,11 +17,11 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   yellowView: {
-    flex:1,
-    backgroundColor: "yellow",
+    flex: 1,
+    backgroundColor: 'yellow',
   },
   blueView: {
-    flex:1,
-    backgroundColor: "blue",
-  }
+    flex: 1,
+    backgroundColor: 'blue',
+  },
 });
